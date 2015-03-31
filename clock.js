@@ -3,11 +3,11 @@ Modified by Heikki Ketoharju to include also public wealth.
 */
 var alku = "2014:09:30"; // <==Data. Starting time. 
 
-var velkakello = 149700000000; // <==Data. Starting amount
-var IMPrate = 17.8; // <==Data. Change in $ billion / year
+var velkakello = 153000000000; // <==Data. Starting amount
+var IMPrate = 12.9; // <==Data. Change in $ billion / year
 
-var saatavakello = 265000000000; // <==Data. Starting amount
-var saatavaRate = 17.9; // <==Data. Change in $ billion / year
+var saatavakello = 264600000000; // <==Data. Starting amount
+var saatavaRate = 16.4; // <==Data. Change in $ billion / year
 
 var timeStart   = (new Date ())/1000;       // Returns # of secs between 1970 GMT (=UTC) and JavaSript (client) start time
 var IMPps   = IMPrate*1000000000/(365*24*60*60); //Paljonko velka kasvaa sekunnissa

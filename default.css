@@ -251,6 +251,10 @@
 		text-align: center;
 	}
 	
+	ul.contact li a:hover {
+        color: #F44;
+    }
+	
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -553,7 +557,6 @@
 	#copyright a
 	{
 		text-decoration: none;
-		color: rgba(255,255,255,0.6);
 	}
 
 /*********************************************************************************/
@@ -723,13 +726,13 @@
 	
 	/* #MEDIA QUERIES - Progressively Enhance With Mobile First
 ============================================================================================== */
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
 /* Add your styles for devices with a maximum width of 480 */
     #portfolio .icon {
         font-size: 3em;
     }
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width:999px) {
 /* Add your styles for devices with a maximum width of 999 */
 
     #welcome {
